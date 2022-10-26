@@ -59,19 +59,6 @@ li{
     width: 100%;
 }
 
-
-.overlay{
-    opacity: 0;
-    color: white;
-    background-color: rgba(0, 0, 0, 5);
-    width: 100%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .font-12px{
     font-size: 12px;
     font-weight: lighter;
@@ -92,8 +79,26 @@ li{
     color: rgb(105, 105, 105);
 }
 
+.label-red{
+    position: absolute;
+    bottom: 80px;
+    background-color: red;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
 
-
+.label-green{
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+    background-color: green;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
 
 
 
