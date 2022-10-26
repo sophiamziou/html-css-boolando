@@ -32,3 +32,45 @@ li{
     padding: 10px 5px;
 }
 
+/* START OF MAIN */
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+}
+
+.col-33{
+    width: calc(100 / 3);
+}
+
+.content{
+    margin: 10px;
+    position: relative;
+}
+
+
+.content img{
+    width: 100%;
+}
+
+
+.overlay{
+    opacity: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 5);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
