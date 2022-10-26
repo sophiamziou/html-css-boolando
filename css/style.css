@@ -61,8 +61,8 @@ li{
     width: 100%;
 }
 
-.font-12px{
-    font-size: 12px;
+.font-15px{
+    font-size: 15px;
     font-weight: lighter;
 }
 
@@ -81,25 +81,23 @@ li{
     color: rgb(105, 105, 105);
 }
 
-.label-red{
+.label{
     position: absolute;
     bottom: 80px;
-    background-color: red;
     padding: 2px 5px;
     font-size: 12px;
     font-weight: bold;
     color: white;
 }
 
-.label-green{
-    position: absolute;
+.red{
+    background-color: red;
+}
+
+.green{
     left: 40px;
     bottom: 80px;
     background-color: green;
-    padding: 2px 5px;
-    font-size: 12px;
-    font-weight: bold;
-    color: white;
 }
 
 footer{
@@ -150,4 +148,9 @@ h4{
 .heart:hover{
     color: red;
     cursor: pointer;
+}
+
+h5{
+    text-align: left;
+    padding: 5px;
 }
