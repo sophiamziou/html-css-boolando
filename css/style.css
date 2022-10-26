@@ -45,7 +45,7 @@ li{
 }
 
 .col-33{
-    width: calc(100 / 3);
+    width: calc(100% / 3);
 }
 
 .content{
