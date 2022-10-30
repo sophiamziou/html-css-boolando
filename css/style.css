@@ -5,8 +5,19 @@
     font-family: sans-serif;
 }
 
-header{
+
+/* UTILITY */
+
+#left{
+    left: 0;
+}
+
+.w100{
     width: 100%;
+}
+
+/* START OF HEADER */
+header{
     background-color: rgb(255,105,0);
     color: white;
     padding: 10px;
@@ -37,6 +48,7 @@ li{
     padding: 10px 5px;
 }
 
+/* START OF MAIN */
 main{
     padding-top: 50px;
 }
@@ -47,7 +59,6 @@ main{
 }
 
 .row{
-    width: 100%;
     display: flex;
     margin: 10px 0;
 }
@@ -60,7 +71,6 @@ main{
     margin: 10px;
     position: relative;
 }
-
 
 .content img{
     width: 100%;
@@ -105,11 +115,9 @@ main{
     background-color: green;
 }
 
-#left{
-    left: 0;
-}
+
+/* START OF FOOTER */
 footer{
-    width: 100%;
     padding: 5px;
     background-color: rgb(26, 26, 26);
     color: white;
